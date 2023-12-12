@@ -59,8 +59,7 @@ class RegisterViewViewModel: ObservableObject {
         guard password.count >= 6 else {
             return false
         }
-                
+        
         return true
-              
     }
 }

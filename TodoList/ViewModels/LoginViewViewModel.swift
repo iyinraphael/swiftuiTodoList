@@ -37,8 +37,6 @@ class LoginViewViewModel: ObservableObject {
             errorMessage = "Please fill in all fields"
             return false
         }
-        
         return true
     }
-    
 }
